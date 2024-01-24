@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
     
@@ -13,6 +13,7 @@
     <link rel="icon" href="img/misau.png"
           type="image/x-icon">
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border border-top-0">
@@ -45,32 +46,35 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item" id="bar">
-                <a class="nav-link active" aria-current="page" href="#"> <i class="fa fa-home" aria-hidden="true"></i> Página inicial</a>
+                <a class="nav-link active" aria-current="page" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Página inicial</a>
               </li>
               
+            
+            <!--Informacoes Uteis Dropdown com outros links-->
             <!--Barra de Pesquisa-->
+
+            <!--
             <form class="d-flex">
                 <input class="form-control custom-search me-2" type="search" placeholder="Pesquisar" aria-label="Search" id="search">
                 <button class="btn btn-outline-info" type="submit"> Pesquisar</button>
               </form>
-              
+              -->
     
                <!--DROPDOWN Depois do Login-->
-               <!--
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </li>
-                  -->
+               
+              <!--DROPDOWN Depois do Login-->
+          <li class="nav-item dropdown" id="bar">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Informações Uteis 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Ajuda</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">Acerca</a></li>
+              
+            </ul>
+        </li>
+                  
     
         </ul>
       </div>
@@ -84,15 +88,15 @@
       <form class="register-form">
         <input type="text" placeholder="name"/>
         <input type="password" placeholder="password"/>
-        <input type="text" placeholder="email address"/>
+        <input type="text" placeholder="Endereço eletrônico "/>
         <button>create</button>
-        <p class="message">Already registered? <a href="#">Sign In</a></p>
+        <p class="message">Ja foi registado? <a href="#">Entrar</a></p>
       </form>
       <form class="login-form">
-        <input type="text" placeholder="username"/>
+        <input type="text" placeholder="Nome do usuário"/>
         <input type="password" placeholder="password"/>
         <button>login</button>
-        <p class="message">Not registered? <a href="#">Create an account</a></p>
+        <p class="message">Não registado? <a href="#">Criar conta</a></p>
       </form>
     </div>
   </div>
@@ -101,7 +105,7 @@
 
     <!--Footer/Rodape-->
 
-
+<!--
 <footer class=" fixed-bottom bg-dark text-light mt-5">
     <div class="container-fluid py-3">
     
@@ -110,7 +114,7 @@
       &copy 2023 Copyright
     </div>
   </footer>
-
+-->
 <script src="js/main.js"></script>
 <script
   type="text/javascript"

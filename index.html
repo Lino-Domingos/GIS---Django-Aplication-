@@ -44,38 +44,40 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item" id="bar">
             <a class="nav-link active" aria-current="page" href="#"> <i class="fa fa-home" aria-hidden="true"></i> Página inicial</a>
           </li>
           
+          <!--DROPDOWN Depois do Login-->
+          <li class="nav-item dropdown" id="bar">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Informações Uteis 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Ajuda</a></li>
+              <li><a class="dropdown-item" href="#">Acerca</a></li>
+              
+            </ul>
+        </li>
+      </ul> 
+        
+        <ul class="navbar-nav ms-auto">
              <li class="nav-item" id="bar">
-            <a class="nav-link" href="#"> <i class="fa fa-sign-in" aria-hidden="true"></i> Entrar </a>
+            <a class="nav-link" href="login.html"> <i class="fa fa-sign-in" aria-hidden="true"></i> Entrar </a>
              </li>
-
+        
+        
+        
         <!--Barra de Pesquisa-->
-        <form class="d-flex">
-            <input class="form-control custom-search me-2" type="search" placeholder="Pesquisar" aria-label="Search" id="search">
-            <button class="btn btn-outline-info" type="submit"> Pesquisar</button>
+        <form class="d-flex custom-search-form" style="margin-left: auto;">
+          <!--Pesquisa por categoria deve ser uma pesquisa que tenha um dropdow ilustrando aquilo que esteja na pagina-->
+            <input class="form-control custom-search me-2" type="search" placeholder="Procurar na pagina" aria-label="Search" id="search">
+            <button class="btn btn-light" type="submit"> Pesquisar</button>
           </form>
           
 
-           <!--DROPDOWN Depois do Login-->
-           <!--
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </li>
-              -->
+           
 
     </ul>
   </div>
