@@ -88,4 +88,13 @@ body {
    color: aliceblue;
   }
 
- 
+  .custom-navbar {
+    height: 56px; /* Altura fixa */
+    /* Outros estilos personalizados se necessário */
+  }
+  
+  @media (max-width: 991.98px) {
+    .custom-navbar {
+       height: auto; /* Altura automática para dispositivos menores */
+    }
+  }
