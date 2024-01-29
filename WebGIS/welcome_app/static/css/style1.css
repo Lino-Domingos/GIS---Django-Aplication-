@@ -1,0 +1,100 @@
+body {
+    padding-top: 70px; /* Ajuste conforme necessário */
+}
+
+#bar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+   color: aliceblue;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+
+#portal{
+    /* Remova o espaçamento interno */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: antiquewhite;
+    text-align: justify;
+    margin-right: 15px;
+  }
+
+  .col-auto {
+    margin-right: 10px; /* Adicione uma margem à direita para separar a imagem do texto */
+  }
+
+  /* Adicionando margem à imagem dentro da navbar-brand */
+  .navbar-brand img {
+    margin-right: 10px; /* Adicione a margem desejada à direita da imagem */
+  }
+
+  /* Adicionando margem ao texto dentro da navbar-brand */
+  .navbar-brand span {
+    margin-left: 10px; /* Adicione a margem desejada à esquerda do texto */
+  }
+
+.navbar{
+    padding: 50%;
+}
+
+
+
+
+#inicio{
+    color: #FFFFFF;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sg{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#search{
+    size: 12px;
+}
+
+.navbar-toggler-icon{
+    color: blue;
+}
+
+#vindo{
+    padding-bottom: 15px;
+
+}
+
+.paragrafos{
+    padding-bottom: 20%;
+    text-align: justify;
+}
+
+.form-control{
+    background-color: #333;
+}
+
+
+
+.d-flex {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+   color: aliceblue;
+  }
+
+  .custom-navbar {
+    height: 56px; /* Altura fixa */
+    /* Outros estilos personalizados se necessário */
+  }
+  
+  @media (max-width: 991.98px) {
+    .custom-navbar {
+       height: auto; /* Altura automática para dispositivos menores */
+    }
+  }
