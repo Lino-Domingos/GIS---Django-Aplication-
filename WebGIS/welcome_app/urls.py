@@ -1,9 +1,8 @@
 from django.urls import path
-from django.views import teste
+from . import views
 
 
 urlpatterns = [
-    path('minha-url/', views.teste, name='minha_view'),
-    # Outras URLs do aplicativo
+    path('', views.inicio, name="welcome"),
 ]
 
